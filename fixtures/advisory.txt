@@ -1,0 +1,4 @@
+Advisory GLYPH-2026-04
+Package: glyph-parser
+Affected: >=2.0.0 and <2.4.3
+Condition: decodeMarkup is reachable with untrusted markup.
