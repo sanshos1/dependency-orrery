@@ -1,0 +1,67 @@
+{
+  "scanId": "ORBIT-1791675036",
+  "contract": "0xF526Db186B92aEAcE4Aa3082d3b45f58c864f121",
+  "transactions": {
+    "open": "0x55d0ff6628d302c344c6e199c045dcf30b4e53f630277bc6e4f62c5134948d03",
+    "resolve": "0x2a4d2385bf69fb5e9d2ecb4b1d945781f1c7fd324a7c14e1defdbaed848ec4b7"
+  },
+  "opened": {
+    "finding": "",
+    "id": "ORBIT-1791675036",
+    "owner": "0xAD049E0Edc298C97552eD60071a35bfc60181FD4",
+    "package": "",
+    "path": [],
+    "reason_code": "",
+    "sources": [
+      {
+        "digest": "4a6292245b69c36b065eb6ee534e189c9bfd4d46b5da22060837e3e10396f247",
+        "role": "manifest",
+        "url": "https://raw.githubusercontent.com/sanshos1/dependency-orrery/main/fixtures/manifest.txt"
+      },
+      {
+        "digest": "21c9ef1089914f55ac0231a6a12f983546aed24230b14b148f7426ca8411e424",
+        "role": "runtime_trace",
+        "url": "https://raw.githubusercontent.com/sanshos1/dependency-orrery/main/fixtures/runtime-trace.txt"
+      },
+      {
+        "digest": "ff50d1efcb0c8a44b4ca96b0c11c079642c5e568dc30c054a737bdbdb9dd4021",
+        "role": "advisory",
+        "url": "https://raw.githubusercontent.com/sanshos1/dependency-orrery/main/fixtures/advisory.txt"
+      }
+    ],
+    "state": "OPEN",
+    "subject": "Orbit renderer production reachability"
+  },
+  "final": {
+    "finding": "AFFECTED",
+    "id": "ORBIT-1791675036",
+    "owner": "0xAD049E0Edc298C97552eD60071a35bfc60181FD4",
+    "package": "glyph-parser",
+    "path": [
+      "orbit-app",
+      "renderer",
+      "glyph-parser"
+    ],
+    "reason_code": "REACHABLE_AFFECTED_RANGE",
+    "sources": [
+      {
+        "digest": "4a6292245b69c36b065eb6ee534e189c9bfd4d46b5da22060837e3e10396f247",
+        "role": "manifest",
+        "url": "https://raw.githubusercontent.com/sanshos1/dependency-orrery/main/fixtures/manifest.txt"
+      },
+      {
+        "digest": "21c9ef1089914f55ac0231a6a12f983546aed24230b14b148f7426ca8411e424",
+        "role": "runtime_trace",
+        "url": "https://raw.githubusercontent.com/sanshos1/dependency-orrery/main/fixtures/runtime-trace.txt"
+      },
+      {
+        "digest": "ff50d1efcb0c8a44b4ca96b0c11c079642c5e568dc30c054a737bdbdb9dd4021",
+        "role": "advisory",
+        "url": "https://raw.githubusercontent.com/sanshos1/dependency-orrery/main/fixtures/advisory.txt"
+      }
+    ],
+    "state": "FINALIZED",
+    "subject": "Orbit renderer production reachability"
+  },
+  "fixtureDisclosure": "Public repository fixtures demonstrate digest freezing, independent refetch, bounded reachability consensus, and terminal state."
+}
