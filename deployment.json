@@ -1,0 +1,9 @@
+{
+  "network": "StudioNet",
+  "contractAddress": "0xF526Db186B92aEAcE4Aa3082d3b45f58c864f121",
+  "deploymentTransaction": "0xba1aa1732734c8afcf0a7072a69be060d6162c37db12e1d61a4f6980f99ea4b0",
+  "sourceSha256": "1e4384a12affa3cb0d0440553b16674570e42c4870eec0d4f0ca1a25af856e49",
+  "sourceCommit": "efc20c019128ddd62e29f0c89687b699a6e94fe4",
+  "repository": "https://github.com/sanshos1/dependency-orrery",
+  "publicSite": "https://dependency-orrery.pages.dev/"
+}
