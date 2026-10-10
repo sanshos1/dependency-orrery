@@ -66,6 +66,11 @@
         border: 1px solid #596078;
         padding: 10px 14px;
         border-radius: 50% 50% 44% 56%;
+        transition: opacity 0.2s ease;
+      }
+      body:has(.drawer.open) .connect {
+        opacity: 0;
+        pointer-events: none;
       }
       .stage {
         position: absolute;
